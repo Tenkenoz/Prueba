@@ -100,7 +100,7 @@ span>a{
 }
 
 .ayuda{
-    position:fixed;
+    position:absolute;
     flex-direction: column; 
     display: flex;
     right: 0;

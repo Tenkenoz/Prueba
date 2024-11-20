@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://img.freepik.com/vector-premium/pintura-paisaje-montana-ventana-montanas-fondo_670382-364700.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+*{
+    font-size: 14px;
+}
+
+section{
+    max-width: 400px;
+    max-height: 700px;
+    background-color:  white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 250px;
+    margin-bottom: 0.50em;
+}
+article{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+
+input{
+    width: 90%;
+    border-radius: 5%;
+    border: transparent;
+    border-bottom: 1px solid black;
+    color: white;
+    padding: 0.5em 0 ;
+    margin: 0.5em;
+    margin-bottom:1em;
+}
+
+span>input{
+    width: 10%; 
+    height: 12px;
+
+}
+#Enviar{
+    background-color: red;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 25%;
+}
+
+a{
+    margin: auto;
+    display: block;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+}

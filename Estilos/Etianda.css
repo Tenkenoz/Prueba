@@ -1,0 +1,125 @@
+.encabezado{
+    background-color: green;
+    color:white;
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    margin-top: 0;
+    background: rgb(118,118,118);
+background: linear-gradient(90deg, rgba(118,118,118,1) 2%, rgba(77,77,77,1) 52%, rgba(118,118,118,1) 100%);
+}
+h1{
+    margin-bottom: 0;
+    color:white;
+}
+.Encabezado{
+    margin-top: 0;
+}
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ojo{
+    margin-left: 20px;
+}
+.derecho{
+    background-color: black;
+    color: aliceblue;
+    width: 20vw;
+    text-align: center;
+}
+.izquierdo{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 5px;
+}
+body{
+    background-color: gray;
+}
+
+.titulos{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion{
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+span>a{
+    color: white;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+
+
+.accesorios{
+    background-color: white;
+    display: inline-flex;
+    width: 400px;
+    margin-left: 25px;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 25px;
+}
+.botonojo{
+    width: 30%;
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0 ;
+    margin: 0.5em; 
+}
+.boton{
+    width: 90%;
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0 ;
+    margin: 0.5em;    
+}
+
+.ayuda{
+    position:fixed;
+    flex-direction: column; 
+    display: flex;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+.tabla{
+    margin: 50px auto;
+}
+table{
+    margin: auto;
+}
+thead{
+    background-color: green;
+}
+tbody{
+    background-color: white;
+}
+th,td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
